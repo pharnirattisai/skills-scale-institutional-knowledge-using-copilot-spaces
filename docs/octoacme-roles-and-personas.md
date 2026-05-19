@@ -221,6 +221,93 @@ The Customer Success or Support Representative is the voice of the customer with
 
 ---
 
+## QA Lead
+
+### Role Summary
+The QA Lead owns the testing strategy for the project, coordinates manual and automated QA efforts, and ensures the Definition of Done includes appropriate quality gates before any increment ships to production.
+
+### Responsibilities
+- Define and maintain the overall test plan and QA approach for each project
+- Coordinate automated and manual test coverage across unit, integration, and end-to-end layers
+- Review acceptance criteria on backlog items to confirm they are testable
+- Sign off on release readiness from a quality perspective
+- Track and report defect trends and test coverage metrics
+
+### Goals
+- Prevent regressions from reaching production
+- Shift quality assurance left into development workflows
+- Maintain clear, repeatable quality gates for every release
+
+### Typical Communication
+- Participates in sprint planning to validate acceptance criteria and testability
+- Reports defect status and test coverage in weekly delivery syncs
+- Provides QA sign-off in the release deployment checklist
+
+### Interactions with existing roles
+- Works with **Developers** to define testable acceptance criteria and review automated test coverage
+- Partners with **Project Manager** to schedule QA milestones and raise quality-related blockers
+- Coordinates with **Security Engineer** on security test coverage and vulnerability remediation validation
+
+---
+
+## Release Manager
+
+### Role Summary
+The Release Manager oversees release readiness, coordinates deployments across teams, maintains changelogs, and ensures all pre-release requirements are met before any version ships. They are the single point of accountability for the deployment checklist.
+
+### Responsibilities
+- Own and execute the deployment checklist for each release
+- Coordinate release windows with engineering, operations, and stakeholder teams
+- Maintain release notes and changelogs aligned to each release type (patch, minor, major)
+- Manage rollback decisions in collaboration with Engineering Manager and on-call teams
+- Track release history and post-deploy verification results
+
+### Goals
+- Reduce deployment risk through consistent, documented release processes
+- Ensure all stakeholders are informed and prepared for each release
+- Minimize time-to-recovery when releases require rollback
+
+### Typical Communication
+- Pre-release readiness reviews with QA Lead, Security Engineer, and Project Manager
+- Deployment status updates to stakeholders during release windows
+- Post-release retrospective items raised for any deployment incidents
+
+### Interactions with existing roles
+- Partners with **Project Manager** to align release timelines with project milestones
+- Works with **QA Lead** and **Security Engineer** to confirm all quality and security gates are cleared
+- Coordinates with **Customer Success / Support Representative** on customer-facing communications before and after each release
+
+---
+
+## Business Analyst
+
+### Role Summary
+The Business Analyst bridges requirements from business stakeholders into clear, actionable backlog items. They work alongside the Product Manager and Project Manager to ensure technical teams have the context needed to implement the right solution.
+
+### Responsibilities
+- Elicit, document, and validate requirements from business stakeholders
+- Translate business needs into well-formed user stories with acceptance criteria
+- Facilitate requirements workshops and stakeholder alignment sessions
+- Maintain traceability between business objectives and backlog items
+- Identify and flag scope creep or requirement conflicts early
+
+### Goals
+- Reduce ambiguity in backlog items before they enter a sprint
+- Ensure implemented solutions map directly to stated business needs
+- Improve handoff quality between business stakeholders and delivery teams
+
+### Typical Communication
+- Requirements workshops and stakeholder interviews
+- Written user stories and process flow documentation shared with delivery teams
+- Participation in sprint planning to clarify requirements and answer questions
+
+### Interactions with existing roles
+- Pairs closely with **Product Manager** to align business requirements with product vision and prioritization
+- Works with **Project Manager** to surface dependency and scope risks early
+- Collaborates with **Developers** during sprint planning to clarify acceptance criteria and resolve ambiguity
+
+---
+
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
